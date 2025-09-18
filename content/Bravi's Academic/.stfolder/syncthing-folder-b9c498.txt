@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: altq7-bouva
+created: 2025-09-08T11:25:41+07:00
