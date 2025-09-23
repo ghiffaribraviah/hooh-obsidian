@@ -1,5 +1,4 @@
-Analisis Algoritme - R2
-Ghiffari Bravia Hisham (G6401231050)
+Analisis Algoritme - R2 <br>Ghiffari Bravia Hisham (G6401231050)
 
 ## Standar Satuan Waktu untuk Tugas
 

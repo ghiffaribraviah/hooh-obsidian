@@ -3,29 +3,52 @@ import { QuartzComponentConstructor } from "./types"
 export default (() => {
   return () => (
     <>
-      <script src="https://unpkg.com/@hpcc-js/wasm/dist/index.min.js"></script>
+      {/* Load Viz.js */}
+      <script src="https://unpkg.com/viz.js@2.1.2/viz.js"></script>
+      <script src="https://unpkg.com/viz.js@2.1.2/full.render.js"></script>
+
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            document.addEventListener("DOMContentLoaded", async () => {
-              const hpccWasm = await window["@hpcc-js/wasm"];
+            // Jangan load 2x
+            if (!window.graphvizInit) {
+              window.graphvizInit = true
+              console.log("✅ GraphvizRenderer loaded (viz.js)");
 
-              document.querySelectorAll('pre code.language-dot').forEach(async block => {
-                try {
-                  const svg = await hpccWasm.graphviz.layout(block.innerText, "svg", "dot");
-                  const container = document.createElement("div");
-                  container.classList.add("graphviz");
-                  container.innerHTML = svg;
-                  block.parentElement.replaceWith(container);
-                } catch (err) {
-                  console.error("Graphviz render error:", err);
-                }
+              document.addEventListener("DOMContentLoaded", () => {
+                console.log("✅ DOMContentLoaded, start rendering");
+
+                const viz = new Viz();
+
+                document.querySelectorAll('code[data-language="dot"]').forEach(async block => {
+                  // Cegah render ganda
+                  if (block.parentElement.classList.contains("graphviz-processed")) {
+                    return;
+                  }
+                  block.parentElement.classList.add("graphviz-processed");
+
+                  // Ambil teks DOT secara utuh
+                  const dotSrc = block.innerText;
+                  console.log("🔍 Found dot block:", dotSrc);
+
+                  try {
+                    const svg = await viz.renderString(dotSrc);
+                    const container = document.createElement("div");
+                    container.classList.add("graphviz");
+                    container.innerHTML = svg;
+
+                    // Ganti <pre><code> dengan SVG
+                    block.parentElement.replaceWith(container);
+                    console.log("✅ Rendered graphviz");
+                  } catch (err) {
+                    console.error("❌ Graphviz render error:", err);
+                  }
+                });
               });
-            });
+            }
           `,
         }}
       />
     </>
   )
 }) satisfies QuartzComponentConstructor
-// This component uses the @hpcc-js/wasm library to render Graphviz diagrams from DOT language code blocks.

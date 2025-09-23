@@ -1,3 +1,18 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.graphviz {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  overflow-x: auto; // biar bisa geser kalau graph besar
+}
+
+.graphviz svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.graphviz svg g.node text {
+  fill: black; /* ganti warna teks node */
+}
