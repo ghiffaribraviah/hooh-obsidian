@@ -71,7 +71,7 @@ Nilai ${a^x}$ yang dikalikan ke b ditentukan dari variabel i. Bila nilai i adala
 
 Kompleksitas waktu untuk algoritme ini adalah ${O(log(n))}$ karena hanya perlu melakukan satu loop sebanyak ${log_2(n)}$ kali. 
 
-### Pencarian Monoton 2D
+### B. Pencarian Monoton 2D
 
 > Diberikan matriks ${A[m \times n]}$  sedemikian rupa sehingga:
 >  
