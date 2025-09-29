@@ -1,7 +1,7 @@
 Analisis Algoritme - R2 <br>Ghiffari Bravia Hisham (G6401231050)
 
-## A. Metode Pohon Keputusan
-### 1. ${T(n) = 2T(\frac n 4) + n}$
+### A. Metode Pohon Keputusan
+#### 1. ${T(n) = 2T(\frac n 4) + n}$
 
 Diketahui
 $$
@@ -109,7 +109,7 @@ $$
 Kompleksitas = O(n)
 $$
 
-### 2. ${T(n) = 3T(\frac n 3) + n}$
+#### 2. ${T(n) = 3T(\frac n 3) + n}$
 
 Diketahui
 $$
@@ -200,7 +200,7 @@ $$
 Kompleksitas = O(n\log n)
 $$
 
-### 3. ${T(n) = 4T(\frac n 2) + n}$
+#### 3. ${T(n) = 4T(\frac n 2) + n}$
 
 Diketahui
 $$
@@ -310,7 +310,7 @@ $$
 Kompleksitas = O(n\sqrt n)
 $$
 
-### 4. ${T(n) = 7T(\frac n 8) + n}$
+#### 4. ${T(n) = 7T(\frac n 8) + n}$
 
 Diketahui
 $$
@@ -509,7 +509,7 @@ $$
 Kompleksitas = O(n)
 $$
 
-## B. Metode Master Theorem
+### B. Metode Master Theorem
 
 | No  |             T(n)             |  a  |  b  |    f(n)     |    ${n^{\log_b a}}$    | Kasus |   Kompleksitas    |
 | :-: | :--------------------------: | :-: | :-: | :---------: | :--------------------: | :---: | :---------------: |
@@ -518,9 +518,9 @@ $$
 |  3  |   ${9T (\frac n 3) + n^2}$   |  9  |  3  |   ${n^2}$   | ${n^{\log_3 9} = n^2}$ |   2   | ${O(n^2\log(n))}$ |
 |  4  | ${3T (\frac n 3) + n^{3/2}}$ |  3  |  3  | ${n^{3/2}}$ |  ${n^{\log_3 3} = n}$  |   3   |  ${O(n^{3/2})}$   |
 
-## C. Analisis Kompleksitas Algoritme Analitis
+### C. Analisis Kompleksitas Algoritme Analitis
 
-### C1. Algoritme TriMerge Sort
+#### C1. Algoritme TriMerge Sort
 
 Algoritme ini berfungsi untuk mengurutkan array dengan membaginya rekursif menjadi tiga bagian berukuran ${n / 3}$, mengurutkan tiap bagian, lalu menggabungkan tiga array terurut tersebut secara linear.
 
@@ -551,7 +551,7 @@ Perhitungan O(n)
 |             T(n)             |  a  |  b  | f(n)  |   ${n^{\log_b a}}$   | Kasus |  Kompleksitas  |
 | :--------------------------: | :-: | :-: | :---: | :------------------: | :---: | :------------: |
 | ${T(n) = 3T(\frac n 3) + n}$ |  3  |  3  | ${n}$ | ${n^{\log_3 3} = n}$ |   2   | ${O(n\log n)}$ |
-### C2. Algoritme QuadHist
+#### C2. Algoritme QuadHist
 
 Algoritme ini berfungsi untuk menghitung frekuensi nilai 1..K pada larik dengan membaginya rekursif menjadi empat sublarik dan menjumlahkan histogram dari tiap sublarik.
 

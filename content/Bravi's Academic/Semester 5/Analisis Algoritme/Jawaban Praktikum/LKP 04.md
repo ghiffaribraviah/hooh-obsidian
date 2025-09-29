@@ -1,6 +1,6 @@
 Analisis Algoritme - R2 <br>Ghiffari Bravia Hisham (G6401231050)
 
-## Standar Satuan Waktu untuk Tugas
+### Standar Satuan Waktu untuk Tugas
 
 - Inisiasi nilai variabel = 1 satuan waktu
 - Inisiasi array dengan M elemen = M satuan waktu
@@ -13,9 +13,9 @@ Analisis Algoritme - R2 <br>Ghiffari Bravia Hisham (G6401231050)
 - Operasi Konstan O(n) = c \* n satuan waktu
 - Operasi Konstan O(n^2) = c \* n^2 satuan waktu
 
-## Iteratif Sederhana
+### Iteratif Sederhana
 
-### Soal 1
+#### Soal 1
 
 ```c
 int n;
@@ -39,7 +39,7 @@ $$
 Kompleksitas = O(1)
 $$
 
-### Soal 2
+#### Soal 2
 
 ```c
 for(int i = 1; i < n; i=i*2){
@@ -60,7 +60,7 @@ $$
 Kompleksitas = O(\log(n))
 $$
 
-### Soal 3
+#### Soal 3
 
 ```c
 int n;
@@ -83,7 +83,7 @@ $$
 Kompleksitas = O(\log(n))
 $$
 
-### Soal 4
+#### Soal 4
 
 ```c
 int n;
@@ -107,7 +107,7 @@ Kompleksitas = O(\sqrt n)
 $$
 
 
-### Soal 5
+#### Soal 5
 
 ```c
 for(int i = n; i > 1; i = i--{
@@ -128,7 +128,7 @@ $$
 Kompleksitas = O(n)
 $$
 
-### Soal 6
+#### Soal 6
 
 ```c
 for(int i = 2; i < n; i=pow(i, 2)){
@@ -150,7 +150,7 @@ $$
 Kompleksitas = O(\log(\log(n)))
 $$
 
-### Soal 7
+#### Soal 7
 
 ```c
 int n;
@@ -173,7 +173,7 @@ $$
 Kompleksitas = O(log(n))
 $$
 
-### Soal 8
+#### Soal 8
 
 ```c
 int n;
@@ -196,7 +196,7 @@ $$
 Kompleksitas = O(n*\log(n))
 $$
 
-### Soal 9
+#### Soal 9
 
 ```c
 int n;
@@ -219,7 +219,7 @@ $$
 Kompleksitas = O(n^3)
 $$
 
-### Soal 10
+#### Soal 10
 
 ```c
 int n;
@@ -242,9 +242,9 @@ $$
 Kompleksitas = O(n^2)
 $$
 
-## Iteratif Majemuk
+### Iteratif Majemuk
 
-### Soal 1
+#### Soal 1
 
 ```c
 for (int i = 0; i < n; i++){
@@ -283,7 +283,7 @@ $$
 Kompleksitas = O(n^2)
 $$
 
-### Soal 2
+#### Soal 2
 
 ```c
 for(int i = 0; i < n; i++){
@@ -322,7 +322,7 @@ $$
 Kompleksitas = O(n\sqrt n)
 $$
 
-### Soal 3
+#### Soal 3
 
 ```c
 int n;
@@ -394,7 +394,7 @@ $$
 Kompleksitas = O(n^2)
 $$
 
-### Soal 4
+#### Soal 4
 
 ```c
 int n;
@@ -467,7 +467,7 @@ $$
 Kompleksitas  = O(n^2)
 $$
 
-### Soal 5
+#### Soal 5
 
 ```c
 scanf("%d", &n);
@@ -502,7 +502,7 @@ $$
 
 Alasan di balik *infinite loop* yang terjadi adalah untuk setiap iterasi, nilai i bertambah secara linear (i++), sementara n bertambah secara kubik (n = pow(n,  3)) sehingga kondisi i < n akan selalu terpenuhi
 
-### Soal 6
+#### Soal 6
 
 ```c
 int n;
@@ -571,7 +571,7 @@ $$
 Kompleksitas = O(n^4)
 $$
 
-### Soal 7
+#### Soal 7
 
 ```c
 int count = 0;
@@ -641,7 +641,7 @@ $$
 Kompleksitas = O(n^2\log(n))
 $$
 
-### Soal 8
+#### Soal 8
 
 ```c
 for (int i = 0; i <= sqrt(n); i++){
@@ -694,7 +694,7 @@ $$
 Kompleksitas = O(n^2\sqrt n)
 $$
 
-### Soal 9
+#### Soal 9
 
 ```c
 int arr[M] = {/*M element*/} // array dengan M element
@@ -736,7 +736,7 @@ $$
 Kompleksitas = O(M)
 $$
 
-### Soal 10
+#### Soal 10
 
 ```c
 scanf("%d", &n);
