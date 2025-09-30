@@ -1,14 +1,38 @@
 ---
-title: Metode Statistika Aktuaria I
+title: Metode Statistika Aktuaria 1
 draft: false
 tags:
+  - academic
+  - smt5
+  - MSA1
+enableToc: true
+description:
+cssclasses:
+socialImage:
+socialDescription:
 ---
+### List Materi
 
-#### Introduction
+1. [[01 - Statistika Dasar]]
+2. [[02 - Sebaran Peubah Acak]]
+3. [[03 - Statistika Inferensia I]]
+4. [[04 - Statistika Inferensia II (Regresi Linear Sederhana)]]
+5. [[05 - Model Regresi Banyak Peubah]]
 
-Welcome to Bravi's Obsidian! This is a knowledge garden created by Ghiffari Bravia Hisham, a compsci student who loves to learn anything and everything!
+### Bobot Penilaian
 
-Even tho this garden is shared publicly, most of notes will be written in Bahasa Indonesia. While the contents for now may be few, but feel free to explore! More contents will be added as time passed by :)
+|  Komponen Penilaian   | Bobot (%) |
+| :-------------------: | :-------: |
+| Ujian Tengah Semester |    30%    |
+| Ujian Akhir Semester  |    30%    |
+|         Tugas         |    20%    |
+|         Kuis          |    20%    |
 
-#### Table of Contents
-- [[Bravi's Academic/]] , contains my academic notes starts from 5th semester
+### Referensi / Sumber Belajar
+
+- [Applied Linear Regression (4th Edition)](https://drive.google.com/file/d/1ngacQ2cKFizzVs2lv-tNhssaZ-lX7bAJ/view?usp=drive_link)
+- [Introduction to Time Series Analysis and Forecasting](https://drive.google.com/file/d/161MtvwZXzrvKI0EoETwCk8rjQO35KZS9/view?usp=drive_link)
+- [Probability & Statistics for Engineers & Scientists (9th Edition)](https://drive.google.com/file/d/1sNNiGioSIOn96e5PPqvTS-LaTNmS6jy3/view?usp=drive_link)
+- [Regression Modeling With Actuarial and Financial Applications](https://drive.google.com/file/d/1rkOMA3XoJmp04GGhAPar0kNF20eaTFwX/view?usp=drive_link)
+- [The Art and Science of Learning from Data (4th Edition)](https://drive.google.com/file/d/1snQffpsQLRrWkfOrC_MXYk85qgZ6l7N0/view?usp=drive_link)
+

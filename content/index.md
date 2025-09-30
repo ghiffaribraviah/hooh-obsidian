@@ -2,8 +2,12 @@
 title: Bravi's Obsidian
 draft: false
 tags:
+enableToc: false
+description:
+cssclasses:
+socialImage:
+socialDescription:
 ---
- 
 #### Introduction
 
 Welcome to Bravi's Obsidian! This is a knowledge garden created by Ghiffari Bravia Hisham, a compsci student who loves to learn anything and everything!

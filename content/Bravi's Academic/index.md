@@ -3,9 +3,8 @@ title: Bravi's Academic
 draft: false
 tags:
   - academic
-enableToc: true
+enableToc: false
 ---
-
 #### Introduction
 Selamat datang di Bravi's Academic! Garden ini merupakan kumpulan catatan maupun tugas yang pernah di tulis Bravi mulai dari semester 5! 
 
