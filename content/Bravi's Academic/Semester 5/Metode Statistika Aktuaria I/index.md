@@ -1,32 +1,60 @@
 ---
-title: Metode Statistika Aktuaria 1
+title: Metode Statistika Aktuaria I
 draft: false
 tags:
   - academic
   - smt5
-  - MSA1
+  - msa1
 enableToc: true
 description:
 cssclasses:
 socialImage:
 socialDescription:
 ---
-### List Materi
+### Identitas Mata Kuliah
 
-1. [[01 - Statistika Dasar]]
-2. [[02 - Sebaran Peubah Acak]]
-3. [[03 - Statistika Inferensia I]]
-4. [[04 - Statistika Inferensia II (Regresi Linear Sederhana)]]
-5. [[05 - Model Regresi Banyak Peubah]]
+| Nama        | Metode Statistika Aktuaria I |
+| :---------- | :--------------------------: |
+| Kode        |           AKT1243            |
+| SKS         |           3 (2-1)            |
+| Prasyarat   |           MAT1102            |
+| Koordinator | Dr. Ir. Retno Budiarti, M.S. |
+
+### Capaian Mata Kuliah
+
+>Setelah mengikuti mata kuliah ini mahasiswa mampu menjelaskan konsep-konsep statistika dasar; mampu menjelaskan model regresi sederhana dan regresi peubah banyak beserta asumsi-asumsi yang mendasari, mampu identifikasi, pengaruh dan cara mengatasi pelanggaran-pelanggaran asumsi yang mendasari model regresi; mampu menjelaskan pendugaan koefisien model regresi dan sifat-sifat penduga; mampu menjelaskan Generalized Linear Model (GLM) sebagai perluasan dari regresi linear ; dan mampu menjelaskan model ekstrapolasi deterministik dan model deret waktu stokastik serta mampu menerapkannya untuk peramalan dalam bidang ekonomi, keuangan, dan aktuaria.
+
+### Materi Mata Kuliah
+
+| Pekan |                Materi                |             Catatan Kuliah              | Responsi |
+| :---: | :----------------------------------: | :-------------------------------------: | :------: |
+|   1   |           Statistika Dasar           |        [[01 - Statistika Dasar]]        |          |
+|   2   |           Sebaran Peluang            |        [[02 - Sebaran Peluang]]         |          |
+|   3   |        Statistika Inferensia         |     [[03 - Statistika Inferensia]]      |          |
+|   4   |    Model Regresi Linear Sederhana    | [[04 - Model Regresi Linear Sederhana]] |          |
+|   5   |     Model Regresi Peubah Banyak      |  [[05 - Model Regresi Banyak Peubah]]   |          |
+|   6   | Lanjutan Model Regresi Peubah Banyak |                                         |          |
 
 ### Bobot Penilaian
 
-|  Komponen Penilaian   | Bobot (%) |
-| :-------------------: | :-------: |
-| Ujian Tengah Semester |    30%    |
-| Ujian Akhir Semester  |    30%    |
-|         Tugas         |    20%    |
-|         Kuis          |    20%    |
+|     Komponen Penilaian      | Bobot (%) |
+| :-------------------------: | :-------: |
+| Ujian Tengah Semester (UTS) |    30%    |
+| Ujian Akhir Semester (UAS)  |    30%    |
+|            Tugas            |    20%    |
+|            Kuis             |    20%    |
+
+### Konversi Huruf Mutu
+
+|   Nilai Akhir (NA)   | Huruf Mutu |
+| :------------------: | :--------: |
+|    ${NA \ge 80}$     |     A      |
+| ${70 \le NA \le 80}$ |     AB     |
+| ${60 \le NA \le 70}$ |     B      |
+| ${50 \le NA \le 60}$ |     BC     |
+| ${40 \le NA \le 50}$ |     C      |
+| ${30 \le NA \le 40}$ |     D      |
+|    ${NA \lt 30}$     |     E      |
 
 ### Referensi / Sumber Belajar
 

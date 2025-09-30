@@ -32,7 +32,7 @@ $$
 $$
 \hat Y = X\hat\beta
 $$
-Pembuktian dapat dicek di [[MSA1_05_E_01 - Pembuktian Model Dugaan Parameter|sini]]
+Pembuktian dapat dicek di [[MSA1_05_P_01 - Pembuktian Model Dugaan Parameter|sini]]
 
 ### Pengujian Hipotesis Parsial
 

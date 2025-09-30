@@ -79,7 +79,18 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({
+        sort: (a, b) => {
+          // fallback aman jika displayName undefined
+          const nameA = a.displayName ?? ""
+          const nameB = b.displayName ?? ""
+          // localeCompare dengan opsi numeric dan sensitivity
+          return nameA.localeCompare(nameB, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        },
+      }),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
