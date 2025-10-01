@@ -1,7 +1,7 @@
 Link PPT : [01 - Statistika Dasar](https://drive.google.com/file/d/1tCgEMpIE5leACtMUUVY4xXSjezc1Ri3R/view?usp=drive_link)
 ### Review Konsep Statistika
 
-![[MSA1_01_P_01 - Konsep Statistika.png]]
+![[01 - K - 01 - Konsep Statistika.png]]
 
 #### Definisi Statistika
 
@@ -23,7 +23,7 @@ Link PPT : [01 - Statistika Dasar](https://drive.google.com/file/d/1tCgEMpIE5leA
 
 #### Skala Pengukuran
 
-![[MSA1_01_P_02 - Skala Pengukuran Statistika.png]]
+![[01 - K - 02 - Skala Pengukuran Statistika.png]]
 
 1. **Nominal** 
 	- Data dikategorikan berdasarkan label tertentu tanpa adanya urutan atau hierarki

@@ -26,14 +26,14 @@ socialDescription:
 
 ### Materi Mata Kuliah
 
-| Pekan |                Materi                |             Catatan Kuliah              | Responsi |
-| :---: | :----------------------------------: | :-------------------------------------: | :------: |
-|   1   |           Statistika Dasar           |        [[01 - Statistika Dasar]]        |          |
-|   2   |           Sebaran Peluang            |        [[02 - Sebaran Peluang]]         |          |
-|   3   |        Statistika Inferensia         |     [[03 - Statistika Inferensia]]      |          |
-|   4   |    Model Regresi Linear Sederhana    | [[04 - Model Regresi Linear Sederhana]] |          |
-|   5   |     Model Regresi Peubah Banyak      |  [[05 - Model Regresi Banyak Peubah]]   |          |
-|   6   | Lanjutan Model Regresi Peubah Banyak |                                         |          |
+| Pekan |                Materi                |              Catatan Kuliah              |               Responsi                |
+| :---: | :----------------------------------: | :--------------------------------------: | :-----------------------------------: |
+|   1   |           Statistika Dasar           |        [[K01 - Statistika Dasar]]        |                                       |
+|   2   |           Sebaran Peluang            |        [[K02 - Sebaran Peluang]]         |                                       |
+|   3   |        Statistika Inferensia         |     [[K03 - Statistika Inferensia]]      |                                       |
+|   4   |    Model Regresi Linear Sederhana    | [[K04 - Model Regresi Linear Sederhana]] |                                       |
+|   5   |     Model Regresi Peubah Banyak      |  [[K05 - Model Regresi Banyak Peubah]]   | [[R05 - Model Regresi Banyak Peubah]] |
+|   6   | Lanjutan Model Regresi Peubah Banyak |                                          |                                       |
 
 ### Bobot Penilaian
 

@@ -1,3 +1,5 @@
+[[Bravi's Academic/Semester 5/Metode Statistika Aktuaria I/Kuliah/index|Metode Statistika Aktuaria I]] - K1
+Ghiffari Bravia Hisham (G6401231050)
 ### Definisi Umum
 
 Model:
