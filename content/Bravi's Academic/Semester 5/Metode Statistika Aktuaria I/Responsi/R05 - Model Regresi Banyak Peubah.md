@@ -19,7 +19,7 @@ Hasil Plot antara Y dengan ${X_1}$
 
 Hasil Plot antara Y dengan ${X_2}$
 
-![[Pasted image 20250930232114.png]]
+![[05-R-02-Plot 1a (X2).png]]
 
 Pada gambar hasil plot, diketahui susunan setiap titik membentuk pola linear sehingga model regresi linear dapat diterapkan pada data tersebut.
 #### 1b
