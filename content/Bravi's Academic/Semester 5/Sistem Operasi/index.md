@@ -28,11 +28,15 @@ socialDescription:
 
 ### Materi Mata Kuliah
 
-| Pekan | Materi | Catatan Kuliah | Praktikum |
-| :---: | :----: | :------------: | :-------: |
-|       |        |                |           |
-|       |        |                |           |
-|       |        |                |           |
+| Pekan |           Materi            | Catatan Kuliah | Praktikum |
+| :---: | :-------------------------: | :------------: | :-------: |
+|   1   |        Introduction         |                |           |
+|   2   |        OS Structures        |                |           |
+|   3   |           Process           |                |           |
+|   4   |    Thread & Concurrency     |                |           |
+|   5   |       CPU Scheduling        |                |           |
+|   6   |      Thread Scheduling      |                |           |
+|   7   | Synchronization & Deadlocks |                |           |
 
 ### Bobot Penilaian
 
