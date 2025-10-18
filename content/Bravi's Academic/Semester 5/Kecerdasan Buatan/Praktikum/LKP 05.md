@@ -6,7 +6,7 @@
 >
 >Kecamatan Dramaga berada di Kabupaten Bogor Barat. Perhatikan Peta Kabupaten Bogor Barat berikut:
 >
->![[05-R-01-Map Soal.png]]
+>![[05-P-01-Map Soal.png]]
 >![[05-P-02-Gambar Graph.png]]
 >
 >Selesaikan masalah graph coloring menggunakan peta Kecamatan Bogor Barat di atas dengan Algoritme Backtracking secara manual, kemudian bandingkan hasil manual Anda dengan implementasi yang menggunakan AIMA Python.
