@@ -49,7 +49,52 @@ Tentukan $\hat p$ untuk perempuan yang telah divaksin dengan dosis 2 mililiter. 
     $\hat p \approx 0.7755$
 
     Atau bisa juga menggunakan rumus: $\hat p = \frac{e^{1.24}}{1 + e^{1.24}} = \frac{3.456}{1 + 3.456} = \frac{3.456}{4.456} \approx 0.7755$
+Tentu, berikut adalah pengerjaan untuk Soal 1 berdasarkan catatan Anda.
 
+### Soal 1
+
+**Pertanyaan:**
+Misalkan model regresi logistik dapat diekspresikan sebagai berikut:
+${ln(\frac p {1-p}) = \beta_0 + \beta_1x_1 + \beta_2x_2}$
+
+dengan ${x_1}$ menyatakan *gender* (1 untuk laki-laki dan 0 untuk perempuan), ${x_2}$ menyatakan dosis vaksin dalam mililiter, dan p menyatakan peluang bahwa seseorang terjangkit suatu penyakit. Parameter ${\beta_0}$, ${\beta_1}$, dan ${\beta_2}$ diestimasi menggunakan metode *maximum likelihood* dan didapat model dugaan sebagai berikut:
+
+${ln(\frac {\hat p}{1 - \hat p}) = 3.54 + 2.75x_1 - 1.15x_2}$
+
+Tentukan ${\hat p}$ untuk perempuan yang telah divaksin dengan dosis 2 mililiter. Interpretasikan hasilnya.
+
+---
+
+### Jawaban Soal 1
+
+**Penyelesaian:**
+
+1.  **Identifikasi nilai peubah penjelas ($x_1$ dan $x_2$):**
+    *   Untuk perempuan, maka nilai ${x_1 = 0}$.
+    *   Untuk dosis vaksin 2 mililiter, maka nilai ${x_2 = 2}$.
+
+2.  **Substitusikan nilai $x_1$ dan $x_2$ ke dalam model dugaan:**
+    ${ln(\frac {\hat p}{1 - \hat p}) = 3.54 + 2.75(0) - 1.15(2)}$
+    ${ln(\frac {\hat p}{1 - \hat p}) = 3.54 + 0 - 2.30}$
+    ${ln(\frac {\hat p}{1 - \hat p}) = 1.24}$
+
+3.  **Ubah dari *log-odds* menjadi *odds* dengan melakukan eksponensiasi:**
+    ${\frac {\hat p}{1 - \hat p} = e^{1.24}}$
+    ${\frac {\hat p}{1 - \hat p} \approx 3.456}$
+
+4.  **Selesaikan untuk mencari nilai ${\hat p}$ (peluang):**
+    ${\hat p = 3.456 (1 - \hat p)}$
+    ${\hat p = 3.456 - 3.456\hat p}$
+    ${\hat p + 3.456\hat p = 3.456}$
+    ${4.456\hat p = 3.456}$
+    ${\hat p = \frac{3.456}{4.456}}$
+    ${\hat p \approx 0.7755}$
+
+    Cara lain yang lebih cepat adalah dengan rumus:
+    ${\hat p = \frac{e^{1.24}}{1 + e^{1.24}} = \frac{3.456}{1 + 3.456} = \frac{3.456}{4.456} \approx 0.7755}$
+
+**Interpretasi Hasil:**
+Berdasarkan model regresi logistik yang diberikan, estimasi peluang (${\hat p}$) untuk seorang perempuan yang telah divaksin dengan dosis 2 mililiter terjangkit suatu penyakit adalah sekitar **0.7755** atau **77.55%**.
 **Interpretasi Hasil:**
 Untuk perempuan yang telah divaksin dengan dosis 2 mililiter, estimasi peluang ($\hat p$) bahwa mereka terjangkit suatu penyakit adalah sekitar **0.7755** atau **77.55%**. Ini berarti ada kemungkinan yang cukup tinggi bagi perempuan dengan dosis vaksin 2 ml untuk terjangkit penyakit tersebut berdasarkan model ini.
 

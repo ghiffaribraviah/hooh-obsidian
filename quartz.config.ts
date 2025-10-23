@@ -9,7 +9,7 @@ import "./quartz/styles/custom.scss"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Hooh's Obsidian",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
