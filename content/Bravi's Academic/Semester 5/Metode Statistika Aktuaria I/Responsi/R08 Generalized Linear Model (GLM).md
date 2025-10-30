@@ -250,6 +250,8 @@ $$
 $$
 1 - \pi_i = 1 - \frac{e^{\eta_i}}{1 + e^{\eta_i}} = \frac{1 + e^{\eta_i} - e^{\eta_i}}{1 + e^{\eta_i}} = \frac{1}{1 + e^{\eta_i}}
 $$
+$$\pi_i = \frac{e^{\eta_i}}{1 + e^{\eta_i}}
+$$
 
 Karena $y_1, y_2, \dots, y_n$ adalah realisasi yang saling bebas, fungsi *likelihood* adalah produk dari fungsi massa peluang individu:
 $$
@@ -274,6 +276,9 @@ $$
 $$
 
 Substitusikan ini ke dalam $l(\beta)$:
+$$
+l(\beta) = \sum_{i=1}^{n} \left( y_i \log(\pi_i) + (1 - y_i) \log(1 - \pi_i) \right)
+$$
 $$
 l(\beta) = \sum_{i=1}^{n} \left( y_i (\eta_i - \log(1 + e^{\eta_i})) + (1 - y_i) (-\log(1 + e^{\eta_i})) \right)
 $$
