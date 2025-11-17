@@ -114,4 +114,30 @@
 ![[Pasted image 20251112212020.png]]
 
 #### Question 2
+![[Pasted image 20251113100723.png]]
+
+### snake/
+#### Question 1
+![[Pasted image 20251113101115.png]]
+
+### regex/
+#### Question 1
+![[Pasted image 20251113101355.png]]
+
+#### Question 2
+![[Pasted image 20251113102833.png]]
+
+#### Question 3
+![[Pasted image 20251113103442.png]]
+
+#### Question 4
+![[Pasted image 20251113103705.png]]
+
+#### Question 5
+![[Pasted image 20251113104010.png]]
+
+#### Question 6
+![[Pasted image 20251113104216.png]]
+
+#### Question 7
 
